@@ -1,0 +1,102 @@
+<html>
+    <center>
+    <head>
+ <style>
+             h2,p{
+                margin: 10px;
+             }
+             ul{
+                list-style-type: none;
+                margin:0%;
+                padding:0%;
+                background-color: lightpink;
+                overflow: hidden;
+             }
+             ul li{
+                float: left;
+                border-right: 1px solid #bbbbbb;
+             }
+             ul li a{
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            ul li a:hover{
+                background-color: rgb(157, 230, 248);
+            }
+            </style>
+    </head>
+    <body>
+        <ul>
+    <li><a href="#" onclick="show('home')">Home</a></li>
+    <li><a href="#" onclick="show('about')">About</a></li>
+    <li><a href="#" onclick="show('contact')">Contact</a></li>
+    <li><a href="#" onclick="show('dashboard')">Dashboard</a></li>
+</ul>
+<div id="home">
+    <center>
+        <h1>Amazon Great Deals</h1>
+        <p>Welcome to Amazon Great Deals Home Page</p>
+    <p>amazon offers an unique products from various brands and provides exclusive deals</p><br>
+    <head>
+        <h3>iphone sale</h3>
+    </head>
+    <img src="data:image/jpeg;base64,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">
+<p>Iphone 15 pro</p><br>
+    <table border="1">
+    <tr>
+        <th>name</th>
+        <th>version</th>
+        <th>colour</th>
+        <th>price</th>
+    </tr>
+    <tr>
+        <td>apple</td>
+        <td>15 pro</td>
+        <td>blue,peach,pink</td>
+        <td>50k</td>
+    </tr>
+</table>
+<a href="https://www.amazon.in/Apple-iPhone-15-128-GB/dp/B0CHX1W1XY">visit website</a>
+</center>
+ </body>
+    </center>
+</div>
+
+<div id="about" style="display:none;">
+    <center>
+        <h1>About</h1>
+        <p>This website shows Amazon product offers and deals.</p>
+    </center>
+</div>
+
+<div id="contact" style="display:none;">
+    <center>
+        <h1>Contact</h1>
+        <p>Email: amazongreatdeals@gmail.com</p>
+        <p>Phone: 9876543210</p>
+    </center>
+</div>
+
+<div id="dashboard" style="display:none;">
+    <center>
+        <h1>Dashboard</h1>
+        <p>Total Products: 100</p>
+        <p>Active Offers: 20</p>
+    </center>
+</div>
+ <script>
+function show(page){
+
+    document.getElementById("home").style.display = "none";
+    document.getElementById("about").style.display = "none";
+    document.getElementById("contact").style.display = "none";
+    document.getElementById("dashboard").style.display = "none";
+
+    document.getElementById(page).style.display = "block";
+}
+</script>
+    </body>
+ 
